@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+.grid {
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    gap: 7px;
+    background-color: olivedrab;
+}
+.grid * {
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 3rem;
+    background-color: rgb(229, 255, 196);
+    text-align: center;
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+nav {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+aside {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+footer {
+    grid-column: 2/4;
+}

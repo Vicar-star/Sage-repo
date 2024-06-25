@@ -1,0 +1,17 @@
+table {
+    border: 1px solid;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid;
+    padding: 12px;
+    width: 30%;
+}
+th {
+    padding: 5px;
+}
+tr:hover {
+    background-color: olive;
+}

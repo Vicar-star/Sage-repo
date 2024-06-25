@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+.flex {
+    border: 2px solid;
+    display: flex;
+}
+.flex *{
+    border: 1px solid;
+    padding: 30px;
+}
